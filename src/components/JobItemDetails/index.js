@@ -171,7 +171,6 @@ class JobItemDetails extends Component {
             <h1 className="description-heading-card">Description</h1>
             <a href={companyWebsiteUrl} className="company-link">
               Visit
-              <FiExternalLink className="external-link-logo" />
             </a>
           </div>
           <p className="job-description-card">{jobDescription}</p>

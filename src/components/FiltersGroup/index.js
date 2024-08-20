@@ -108,6 +108,30 @@ const FiltersGroup = props => {
       {renderEmploymentTypes()}
       <hr className="separator" />
       {renderSalaryRangesTypes()}
+      <hr className="separator" />
+      <h1 className="filter-heading">Locations</h1>
+      <div className="locations">
+        <div>
+          <input type="checkbox" id="hyderabad" />
+          <label htmlFor="hyderabad" className="filter-label">
+            Hyderabad
+          </label>
+        </div>
+        <div>
+          <input type="checkbox" id="delhi" />
+          <label htmlFor="delhi" className="filter-label">
+            Delhi
+          </label>{' '}
+          <br />
+        </div>
+        <div>
+          <input type="checkbox" id="bangalore" />
+          <label htmlFor="bangalore" className="filter-label">
+            Bangalore
+          </label>{' '}
+          <br />
+        </div>
+      </div>
     </div>
   )
 }
